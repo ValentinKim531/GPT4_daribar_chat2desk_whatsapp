@@ -23,7 +23,7 @@ WEBHOOK_URL = "https://gpt4daribarchat2deskwhatsapp-production.up.railway.app/re
 
 client = AsyncOpenAI(api_key=OPENAI_API_KEY)
 
-ALLOWED_PHONE_NUMBERS = ['77073200049', '77759596671', '77073352450']
+ALLOWED_PHONE_NUMBERS = ['77073200049', '77759596671', '77073352450', '77017054477', '77775846961']
 
 
 async def manage_webhook():
