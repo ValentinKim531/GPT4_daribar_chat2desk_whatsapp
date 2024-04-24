@@ -19,7 +19,7 @@ CHAT2DESK_WEBHOOKS_URL = "https://api.chat2desk.com/v1/webhooks"
 CHAT2DESK_TOKEN = env.str("CHAT2DESK_TOKEN")
 OPENAI_API_KEY = env.str("OPENAI_API_KEY")
 ASSISTANT_ID = env.str("ASSISTANT_ID")
-WEBHOOK_URL = "https://bb2c-37-99-3-148.ngrok-free.app/receive-message/"
+WEBHOOK_URL = "https://gpt4daribarchat2deskwhatsapp-production.up.railway.app/receive-message/"
 
 client = AsyncOpenAI(api_key=OPENAI_API_KEY)
 
